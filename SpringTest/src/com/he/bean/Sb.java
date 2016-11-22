@@ -3,6 +3,13 @@ package com.he.bean;
 public class Sb {
 	private String sex;
 	private int age;
+	 public Sb() {
+		// TODO Auto-generated constructor stub
+	}
+	public Sb(String sex,int age) {
+		this.sex=sex;
+		this.age=age;
+	}
 	public String getSex() {
 		return sex;
 	}
