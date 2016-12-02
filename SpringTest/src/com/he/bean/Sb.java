@@ -1,5 +1,8 @@
 package com.he.bean;
 
+import org.springframework.stereotype.Component;
+
+@Component
 public class Sb {
 	private String sex;
 	private int age;

@@ -1,8 +1,10 @@
 package com.he.bean;
 
+import org.springframework.stereotype.Component;
+@Component
 public class Hello {
 	private String name;
-
+	
 	public Hello() {
 		// TODO Auto-generated constructor stub
 	}
